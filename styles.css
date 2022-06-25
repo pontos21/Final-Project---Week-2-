@@ -5,3 +5,39 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+nav{
+    display: flex;
+    height: 80px;
+    padding: 12px 24px
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.logo_img{
+    height: 80px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(237, 197, 0, 0.904);
+    font-size: 24px;
+    font-weight:bold;
+}
