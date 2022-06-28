@@ -240,3 +240,39 @@
 .about__right--img {
     width: 100%;
 }
+
+/* FEATURES */
+
+#features{
+
+}
+
+.features__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.features__title {
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    width: 100%;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #243E63;
+}
+
+p {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-size: 18px;
+    color: #7C8BA1;
+    font-weight: 500;
+    line-height: 1.625;
+    max-width: 36rem;
+}
