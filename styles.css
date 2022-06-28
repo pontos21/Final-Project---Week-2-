@@ -29,6 +29,11 @@
     margin-left: 0px !important;
 }
 
+.nav__img {
+    width: 2.5rem;
+    margin-right: 0.75rem;
+}
+
 .nav__links--right{
     display: flex;
     justify-self: space-around;
@@ -123,4 +128,115 @@
 .burger__item{
     padding-bottom: 4px;
     margin: 8px 0
+}
+
+.row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.about__columns {
+    display: flex;
+}
+
+.about__left--column {
+    display: flex;
+    flex-direction: column;
+    width: 41.667%;
+    max-width: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about__header {
+    font-weight: 700;
+    color: #1A202C;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.purple__text {
+    color: #6415FF;
+}
+
+.about__para {
+    margin: 32px 0;
+    color: #243E63;
+    font-size: 1.125rem;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+}
+
+.left__column--inputs {
+    padding: 20px 12rem 20px 32px;
+    background-color: #FFF;
+    display: flex;
+    border-radius: 32px;
+    border: 2px solid #e6e7eb;
+    max-width: 28rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.about__email {
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #718096;
+    flex-grow: 2;
+}
+
+.about__button {
+    margin: 8px 8px 8px 0;
+    position: absolute;
+    max-width: 10rem;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 16px 0;
+    line-height: 1;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.left__column--trusted {
+    margin-top: 80px;
+    text-align: left;
+}
+
+.about__img--description {
+    color: #A0AEC0;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.about__left--img {
+    margin-top: 16px;
+    opacity: 0.5;
+    padding-right: 128px;
+    width: 100%;
+    height: auto;
+}
+
+.about__right--column {
+    max-width: 58.333%;
+}
+
+.about__right--img {
+    width: 100%;
 }
