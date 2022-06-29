@@ -130,6 +130,8 @@
     margin: 8px 0
 }
 
+/* ABOUT SECTION */
+
 .row{
     width: 100%;
     max-width: 1280px;
@@ -255,6 +257,16 @@
 
 .features__title {
     margin-bottom: 16px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6415FF;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
