@@ -8,53 +8,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <section id="About">
-                <nav class="nav__links">
-                    <a href="" class="nav__links--left">
-                        <img class="nav__img" src="./assets/treact.logo.svg" alt=""> Treact
-                    </a>
-                    <div class="nav__links--right">
-                        <a href="#" class="nav__link--right">About</a>
-                        <a href="#" class="nav__link--right">Blog</a>
-                        <a href="#" class="nav__link--right">Pricing</a>
-                        <a href="#" class="nav__link--right">Contact Us</a>
-                        <a href="#" class="nav__link--right nav__link--sep">Login</a>
-                        <a href="#" class="nav__link--right purple__box">Sign Up</a>
-                    </div>
-                    <button class="burger" onclick="openMenu()">
-                    <i class="fas fa-bars burger__img" aria-hidden="true"></i>
+    <section id="about">
+        <nav>
+            <figure class="logo">
+                <img src="./assets/treact.logo.svg" alt="">
+                <span class="text">Treact</span>
+            </figure>
+            <ul class="nav__links">
+                <li><a class="nav__link nav__hover--effect" href="">About</a></li>
+                <li><a class="nav__link nav__hover--effect" href="">Blog</a></li>
+                <li><a class="nav__link nav__hover--effect" href="">Pricing</a></li>
+                <li><a class="nav__link nav__hover--effect" href="">Contact Us</a></li>
+                <li>
+                    <a class="nav__link nav__link--login link__hover--effect" href="">Login</a>
+                </li>
+                <button class="btn nav__btn">Sign Up</button>
+            </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                  <i class="fas fa-times"></i>
                 </button>
-                <div class="burger__menu">
-                    <button class="burger burger__close" onlick="closeMenu()">
-                        <i class="close__img fas fa-times" aria-hidden="true"></i>
-                    </button>
-                    <ul class="burger__links">
-                        <li class="burger__item"><a href="buger__link" onclick="closeMenu()">About</a></li>
-                        <li class="burger__item"><a href="buger__link" onclick="closeMenu()">Blog</a></li>
-                        <li class="burger__item"><a href="buger__link" onclick="closeMenu()">Pricing</a></li>
-                        <li class="burger__item"><a href="buger__link" onclick="closeMenu()">Contact Us</a></li>
-                        <li class="burger__item"><a href="buger__link" onclick="closeMenu()">Login</a></li>
-                        <li class="burger__item"><a href="purple__box burger__link" onclick="closeMenu()">Sign Up</a></li>
-                    </ul>
-                </div>
-                    
-                </nav>
-                <div class="row">
-                    <div class="about__column">
-                        <div class="about__left--column">
-                            <h1 class="about__header">Beautiful React Templates <span class="purple__text">for you</span></h1>
-                            <p class="about__para">Our templates are easy to setup, understand, and customize. Fully modular components with a variety of pages and components.</p>
-                        </div>
-                        <div class="left__column--inputs">
-                            <input class="about email" type="email" placeholder="Your Email Address">
-                            <button class="about__button purple__box">Get Started</button>
-                        </div>
-                    </div>
-                </div>       
-            </section>
-    </div>
+                <ul class="menu__links">
+                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">About</a></li>
+                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Blog</a></li>
+                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Pricing</a></li>
+                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Contact Us</a></li>
+                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Login</a></li>
+                  <li class="menu__list"><button class="btn menu__btn" onclick="closeMenu()">Sign Up</button></li>
+                </ul>
+              </div>
+        </nav>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+            
+        </div>
+      </div>  
+    </section>
     
 </body>
 </html>
