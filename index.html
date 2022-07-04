@@ -8,48 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section id="about">
-        <nav>
-            <figure class="logo">
-                <img src="./assets/treact.logo.svg" alt="">
-                <span class="text">Treact</span>
-            </figure>
-            <ul class="nav__links">
-                <li><a class="nav__link nav__hover--effect" href="">About</a></li>
-                <li><a class="nav__link nav__hover--effect" href="">Blog</a></li>
-                <li><a class="nav__link nav__hover--effect" href="">Pricing</a></li>
-                <li><a class="nav__link nav__hover--effect" href="">Contact Us</a></li>
-                <li>
-                    <a class="nav__link nav__link--login link__hover--effect" href="">Login</a>
-                </li>
-                <button class="btn nav__btn">Sign Up</button>
-            </ul>
-            <button class="btn__menu" onclick="openMenu()">
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="menu__backdrop">
-                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                  <i class="fas fa-times"></i>
-                </button>
-                <ul class="menu__links">
-                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">About</a></li>
-                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Blog</a></li>
-                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Pricing</a></li>
-                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Contact Us</a></li>
-                  <li class="menu__list"><a class="menu__link link__hover--effect" onclick="closeMenu()">Login</a></li>
-                  <li class="menu__list"><button class="btn menu__btn" onclick="closeMenu()">Sign Up</button></li>
-                </ul>
-              </div>
-        </nav>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row">
-            
-        </div>
-      </div>  
-    </section>
+    <div class="container">
+        <header>
+            <section id="About">
+                <nav>
+                    <figure cloass="logo">
+                        <img src="./assets/treact.logo.svg" alt="">
+                        <span class="text">Treact</span>
+                    </figure>
+                    <ul class="nav__links">
+                        <li><a class="nav__link" href="">About</a></li>
+                        <li><a class="nav__link" href="">Blog</a></li>
+                        <li><a class="nav__link" href="">Pricing</a></li>
+                        <li><a class="nav__link" href="">Contact Us</a></li>
+                        <li><a class="nav__link nav__link--login" href="">Login</a></li>
+                        <li><a class="nav__link nav__link--purple__box" href="">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+    </div>
     
 </body>
 </html>
