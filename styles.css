@@ -35,6 +35,12 @@ ul{
     color: #242424;
     text-decoration:none;
     font-weight:700;
+    padding: 40px;
+    letter-spacing: 0.025rem;
+}
+
+.nav__link--login {
+    margin-left: 40px;
 }
 
 .nav__link--purple__box{
@@ -49,6 +55,17 @@ ul{
     background-color: #5d3eff;
 }
 
+.link__hover--effect:after{
+    position:absolute;
+    content: "";
+    height: 3px;
+    bottom: -3px;
+    width: 0%;
+    background-color: #243e63;
+    right: 0;
+    transition: all 300ms ease;
+}
+
 .text{
     font-size: 24px;
     font-weight: 900;
@@ -61,8 +78,105 @@ ul{
     justify-content: space-between;
     align-items: center;
     transition: all 300ms ease;
+    width: 2.5rem;
 }
 
 img{
-    width: 2.5rem;
+    width: 100%
+}
+
+/* LANDING */
+
+.header__container{
+    padding: 96px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__description{
+    width: 40%;
+}
+
+.header__title{
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+}
+
+.purple__text{
+    color: #5d3eff;
+}
+
+.header__para{
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 40px 0px;
+    color: #243e63;
+}
+
+.input__wrapper{
+    max-width:600px;
+    position: relative;
+}
+
+.header__input{
+    font-size: 18px;
+    color: #243e63;
+    border: 2px solid lightgray;
+    padding: 22px 0;
+    padding-left: 32px;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.header__btn{
+    font-size: 18px;
+    position:absolute;
+    height: 56px;
+    right: 10px;
+    transform: translateY(10%);
+}
+
+.btn{
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color:white;
+    transition: all 300ms ease;
+}
+
+.trusted__wrapper{
+    height: 140px;
+    max-width: 70%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trusted__para{
+    color: #243e63;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.figure{
+    display: flex;
+    align-items: center;
+}
+
+.header__img{
+    width:60px;
 }
