@@ -125,7 +125,7 @@ img{
 }
 
 .input__wrapper{
-    max-width:600px;
+    max-width:400px;
     position: relative;
 }
 
@@ -178,5 +178,5 @@ img{
 }
 
 .header__img{
-    width:60px;
+    width:60%;
 }
