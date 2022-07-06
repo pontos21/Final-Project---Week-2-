@@ -184,7 +184,6 @@ img{
 /* FEATURES */
 
 .row__services{
-    width:100%;
     max-width:1200px;
     margin: 0 auto;
 }
@@ -194,15 +193,34 @@ img{
     margin: 0 auto;
 }
 
-.services__panel{
+.service{
     display: flex;
     flex-wrap:wrap;
-    max-width: 1200px;
+    width:100%;
+    max-width: 1024px;
+    margin:0 auto;
 }
 
-.services{
-    padding: 32px 24px;
-    display: flex;
-    width: calc(100% / 3);
+.service__img--wrapper{
+    padding: 20px;
+    border: 1px solid rgba(205, 206, 209, 0.795);
+    border-radius: 100%;
+    display: flex;;
 }
+
+.service__icon{
+    height: 24px;
+    width: 24px;
+}
+
+.text__container{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+
+
+
+
+
 
