@@ -199,6 +199,7 @@ img{
     width:100%;
     max-width: 1024px;
     margin:0 auto;
+    width: calc(100%/3);
 }
 
 .service__img--wrapper{
