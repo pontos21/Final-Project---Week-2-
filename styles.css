@@ -314,6 +314,23 @@ img{
     border:1px solid lightgrey;
 }
 
+/* STEPS */
+
+.row__steps{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.steps__img--wrapper{
+    width:50%;
+}
+
+.steps__description{
+    width:50%;
+    padding: 32px 0;
+    margin-left: 24px;
+}
+
 
 
 
