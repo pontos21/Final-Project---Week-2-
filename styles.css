@@ -261,15 +261,22 @@ img{
 .row__quality{
     padding: 96px;
     display: flex;
+
 }
+
+.quality__description{
+    width:50%;
+}
+
 .quality__title{
     font-weight: 700;
     --tw-text-opacity: 1;
     color: rgba(100,21,255,var(--tw-text-opacity));
+    letter-spacing: 0.2em;
 }
 
 .quality__subtitle{
-    margin-top: 1rem;
+    margin-top: 16px;
     font-weight: 900;
     font-size: 50px;
     line-height: 1.25;
@@ -301,6 +308,10 @@ img{
 
 .quality__wrapper{
     width:50%;
+}
+
+.quality__img{
+    border:1px solid lightgrey;
 }
 
 
