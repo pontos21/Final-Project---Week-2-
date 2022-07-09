@@ -319,6 +319,7 @@ img{
 .row__steps{
     max-width:1200px;
     margin: 0 auto;
+    display: flex;
 }
 
 .steps__img--wrapper{
@@ -329,6 +330,39 @@ img{
     width:50%;
     padding: 32px 0;
     margin-left: 24px;
+}
+
+.steps__subtitle{
+    margin-top:24px;
+    font-weight:700;
+    line-height: 1.25;
+    font-size:48px;
+}
+
+.steps__list{
+    margin-top: 24px;
+}
+
+.step__number{
+    font-weight:600;
+    font-size: 2.25em;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgba(203,213,224,var(--tw-text-opacity));
+}
+
+.step__description--wrapper{
+    
+}
+
+.steps__description{
+    margin-top: 0px;
+}
+
+.step__description--title,
+.step__description--para{
+    margin-left:10px;
+    margin-top: 10px;
 }
 
 
