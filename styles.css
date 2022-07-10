@@ -111,6 +111,8 @@ img{
     font-size: 48px;
     color: black;
     font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
 }
 
 .purple__text{
@@ -203,6 +205,8 @@ img{
     text-align:center;
     font-size: 50px;
     margin-bottom: 16px;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
 }
 
 .features__para{
@@ -280,6 +284,8 @@ img{
     font-weight: 900;
     font-size: 50px;
     line-height: 1.25;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
 }
 
 .quality__para{
@@ -326,8 +332,13 @@ img{
     width:50%;
 }
 
+.steps__img{
+    padding-top:60px;
+}
+
 .steps__description{
     margin-left: 24px;
+    width: 50%;
 }
 
 .steps__title{
@@ -339,6 +350,8 @@ img{
     font-weight:700;
     line-height: 1.25;
     font-size:48px;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
 }
 
 .steps__list{
@@ -349,7 +362,7 @@ img{
 
 .steps__panel{
     display: flex;
-    padding:20px 0;
+    padding:10px 0;
 }
 
 .steps__number--wrapper{
@@ -377,8 +390,73 @@ img{
     color:rgba(113,128,150);
 }
 
+/* VALUES */
 
+.row__values{
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 96px;
+}
 
+.values__title{
+    font-size: 15px;
+}
+
+.values__subtitle{
+    margin-top:24px;
+    font-weight:700;
+    line-height: 1.25;
+    font-size:48px;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
+}
+
+.values__para{
+    margin-top: 16px;
+    font-weight: 500; 
+    line-height: 1.625; 
+    --tw-text-opacity: 1;
+    color: rgba(124,139,161,var(--tw-text-opacity));
+}
+
+.principles__wrapper{
+    margin-top: 24px;
+    display: flex;
+}
+
+.principles__icon--1{
+    padding:8px;
+    height: 36px;
+    max-width: 36px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    flex-shrink:0;
+    border-radius:100%;
+    border-width: 0px;
+    background-color: #9AE6B4;
+}
+
+.principles__icon--2{
+    padding:8px;
+    height: 36px;
+    max-width: 36px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    flex-shrink:0;
+    border-radius:100%;
+    border-width: 0px;
+    background-color: #FEB2B2;
+}
+
+.values__img{
+    width:50%;
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
