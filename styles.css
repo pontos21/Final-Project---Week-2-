@@ -399,6 +399,11 @@ img{
     padding: 96px;
 }
 
+.values__text--wrapper{
+    width:50%;
+
+}
+
 .values__title{
     font-size: 15px;
 }
@@ -470,10 +475,14 @@ img{
     background-color: #FEB2B2;
 }
 
-.values__img{
-    width:50%;
+.values__img--wrapper{
     display: flex;
     align-items: center;
+}
+
+.values__img{
+    width:50%;
+    
 }
 
 .values__btn{
