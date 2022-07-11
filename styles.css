@@ -477,12 +477,10 @@ img{
 
 .values__img--wrapper{
     display: flex;
-    align-items: center;
 }
 
 .values__img{
     width:50%;
-    
 }
 
 .values__btn{
