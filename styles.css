@@ -397,6 +397,7 @@ img{
     max-width: 1200px;
     margin:0 auto;
     padding: 96px;
+    display: flex;
 }
 
 .values__text--wrapper{
@@ -475,13 +476,11 @@ img{
     background-color: #FEB2B2;
 }
 
-.values__img--wrapper{
-    display: flex;
-}
-
 .values__img{
     width:50%;
 }
+
+
 
 .values__btn{
     margin-top: 20px;
