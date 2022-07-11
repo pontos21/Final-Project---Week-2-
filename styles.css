@@ -398,6 +398,7 @@ img{
     margin:0 auto;
     padding: 96px;
     display: flex;
+    align-items: center;
 }
 
 .values__text--wrapper{
