@@ -551,15 +551,10 @@ img{
     text-align: center;
 }
 
-.plans__personal{
+.plans__box1{
     border:3px solid lightgrey;
     border-radius:6px;
-    width: 400px;
-    height: 300x;
     margin: 24px;
-}
-
-.plans__personal--box1{
     line-height: 1.625;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -567,7 +562,6 @@ img{
     border-top-right-radius: 8px;
     border-top: 8px solid rgba(56, 178, 172, 0.55);
 }
-
 
 .plans__title{
     font-size:20px;
@@ -587,14 +581,17 @@ img{
     margin:0;
 }
 
-.plans__personal--box2{
+.personal__box2,
+.business__box2,
+.enterprise__box2{
     display: flex;
     flex-direction:column;
     margin-left: -32px;
     margin-right: -32px;
     padding: 32px;
-    border-top:1px solid #CBD5E0;
-    border-bottom: 1px solid #CBD5E0;
+    border-top:2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    
 }
 
 .plans__feature{
@@ -604,7 +601,7 @@ img{
     color: #718096;
 }
 
-.plans__personal--box3{
+.plans__box3{
     padding:32px 64px;
 }
 
