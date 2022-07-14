@@ -674,19 +674,20 @@ img{
     max-width: 1200px;
     margin:0 auto;
     padding: 96px;
+    display: flex;
 }
 
-.testimonials__wrapper{
-    width:50%;
+.testimonials__img{
+   width: 50%;
 }
 
 .testimonials__description{
-   width:50%;
+    margin-left: 50px;
 }
 
 .testimonials__title{
     text-align:left;
-    font-size:16px;
+    font-size:48px;
     margin-bottom: 20px;
 }
 
