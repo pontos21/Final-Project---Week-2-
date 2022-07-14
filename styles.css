@@ -666,6 +666,50 @@ img{
     border-top: 8px solid rgb(238, 121, 25);
     border-radius: 10px;
 }
+
+/* TESTIMONIALS */
+
+.row__testimonials{
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 96px;
+}
+
+.testimonials__wrapper{
+    width:50%;
+}
+
+.testimonials__description{
+   width:50%;
+}
+
+.testimonials__title{
+    text-align:left;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+.testimonials__subtitle{
+    font-size:48px;
+    font-weight:700;
+    letter-spacing: 0.025em;
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
+}
+
+.testimonials__para{
+    font-size:16px;
+    margin-top:20px;
+    font-weight:500;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgba(124,139,161,var(--tw-text-opacity));
+}
+
+
+
+
    
 
 
