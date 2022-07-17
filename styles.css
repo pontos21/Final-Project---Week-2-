@@ -789,7 +789,69 @@ img{
     cursor: not-allowed;
 }
 
+/* DEVELOPERS */
 
+.developers__container{
+    background-color:#5d3eff;
+    margin-top:24px;
+    margin-bottom:24px;
+    border-radius:8px;
+    
+}
+
+.developers__row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom:24px;
+    padding: 24px;
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.developers__title{
+    color:white;
+    text-align:left;
+    font-size: 1.875rem;
+    font-weight: 700;
+    max-width: 30rem;
+}
+
+.developers__text--wrapper{
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1024px;
+    
+}
+
+.developers__buttons{
+    display: flex;
+}
+
+.dev__btn{
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 20px 40px;
+    border-width: 1px;
+    font-weight: 700;
+}
+
+.dev__btn1{
+    background-color: #f56565;
+    margin-right: 32px;
+}
+
+.dev__btn2{
+    background-color: #6415FF;
+    border: 1px solid white;
+}
 
 
    
