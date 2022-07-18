@@ -984,6 +984,7 @@ img{
     font-weight: 900;
     letter-spacing: 0.05em;
     color:white;
+    margin-left: 8px;
 }
 
 .footer__para{
@@ -991,8 +992,8 @@ img{
 }
 
 .footer__logo{
-    width:40px;
-    height:40px;
+    display: flex;
+    align-items: center;
 }
 
 .footer__img{
