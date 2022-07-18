@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -25,6 +26,22 @@
                         <li><a class="nav__link nav__link--login" href="">Login</a></li>
                         <li><a class="nav__link nav__link--purple__box" href="">Sign Up</a></li>
                     </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                      <i class="fas fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                      </button>
+                      <ul class="menu__links">
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="menu__link" onlick="closeMenu">About</a></li>
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="menu__link" onlick="closeMenu">Blog</a></li>
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="menu__link" onlick="closeMenu">Pricing</a></li>
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="menu__link" onlick="closeMenu">Contact Us</a></li>
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="menu__link" onlick="closeMenu">Log In</a></li>
+                        <li class="menu__list"><a href="https://treact.owaiskhan.me/#" class="nav__link--purple__box menu__link" onlick="closeMenu">Sign Up</a></li>
+                      </ul>
+                    </div>
                 </nav>
                 <section id="landing">
                     <div class="header__container">
