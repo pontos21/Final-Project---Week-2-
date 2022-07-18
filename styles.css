@@ -900,14 +900,19 @@ img{
     margin-top: 4rem; 
 }
 
-.footer__copyright{
+.footer__info{
+    margin-top:64px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.footer__para{
+.footer__text{
     display: flex;
-    align-items: center;
+}
+
+.footer__para{
+    text-align:center;
 }
 
 .footer__logo{
